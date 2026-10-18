@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "671000000000000000000001",
+    "fullName": "Nguyen Van An",
+    "email": "an.nguyen@example.com",
+    "phone": "0912345678",
+    "membershipType": "Student",
+    "isActive": true,
+    "createdAt": "2026-01-11T08:00:00.000Z",
+    "updatedAt": "2026-01-11T08:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "671000000000000000000002",
+    "fullName": "Tran Thi Binh",
+    "email": "binh.tran@example.com",
+    "phone": "0987654321",
+    "membershipType": "Teacher",
+    "isActive": true,
+    "createdAt": "2026-01-11T08:05:00.000Z",
+    "updatedAt": "2026-01-11T08:05:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "671000000000000000000003",
+    "fullName": "Le Minh Chau",
+    "email": "chau.le@example.com",
+    "phone": "0909090909",
+    "membershipType": "Student",
+    "isActive": false,
+    "createdAt": "2026-01-11T08:10:00.000Z",
+    "updatedAt": "2026-01-11T08:10:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "671000000000000000000004",
+    "fullName": "Pham Quoc Dung",
+    "email": "dung.pham@example.com",
+    "phone": "0933333333",
+    "membershipType": "Guest",
+    "isActive": true,
+    "createdAt": "2026-01-11T08:15:00.000Z",
+    "updatedAt": "2026-01-11T08:15:00.000Z",
+    "__v": 0
+  }
+]

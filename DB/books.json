@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "670000000000000000000001",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Programming",
+    "isbn": "9780132350884",
+    "publishedYear": 2008,
+    "totalCopies": 10,
+    "availableCopies": 9,
+    "createdAt": "2026-01-10T08:00:00.000Z",
+    "updatedAt": "2026-10-06T11:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "670000000000000000000002",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt and David Thomas",
+    "category": "Programming",
+    "isbn": "9780201616224",
+    "publishedYear": 1999,
+    "totalCopies": 7,
+    "availableCopies": 5,
+    "createdAt": "2026-01-10T08:05:00.000Z",
+    "updatedAt": "2026-10-06T11:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "670000000000000000000003",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "category": "Computer Science",
+    "isbn": "9780262046305",
+    "publishedYear": 2022,
+    "totalCopies": 5,
+    "availableCopies": 5,
+    "createdAt": "2026-01-10T08:10:00.000Z",
+    "updatedAt": "2026-10-06T11:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "670000000000000000000004",
+    "title": "Database System Concepts",
+    "author": "Abraham Silberschatz",
+    "category": "Database",
+    "isbn": "9780078022159",
+    "publishedYear": 2019,
+    "totalCopies": 6,
+    "availableCopies": 5,
+    "createdAt": "2026-01-10T08:15:00.000Z",
+    "updatedAt": "2026-10-06T11:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "670000000000000000000005",
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "category": "Programming",
+    "isbn": "9780596517748",
+    "publishedYear": 2008,
+    "totalCopies": 4,
+    "availableCopies": 3,
+    "createdAt": "2026-01-10T08:20:00.000Z",
+    "updatedAt": "2026-10-06T11:00:00.000Z",
+    "__v": 0
+  }
+]

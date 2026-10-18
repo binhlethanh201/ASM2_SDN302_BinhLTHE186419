@@ -1,0 +1,67 @@
+
+books {
+    title: {type: String, required: true},
+
+    author: {type: String, required: true},
+
+    category: {type: String, required: true},
+
+    isbn: {type: String, required: true, unique: true},
+
+    publishedYear: {type: Number},
+
+    totalCopies: {type: Number, min: 0},
+
+    availableCopies: {type: Number, min: 0},
+
+}, {timestamps: true};
+
+
+members {
+    fullName: {type: String, required: true},
+
+    email: {type: String, required: true, unique: true},
+
+    phone: {type: String, required: true},
+
+    membershipType: {
+        type: String,
+        enum: ["Student", "Teacher", "Guest"]
+    },
+
+    isActive: {type: Boolean, default: true},
+
+}, {timestamps: true};
+
+
+loans {
+    member_id: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Member",
+        required: true
+    },
+
+    items: [{
+        book_id: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Book",
+            required: true
+        },
+
+        quantity: {type: Number, min: 1, required: true}
+    }],
+
+    borrowDate: {type: Date, default: Date.now},
+
+    dueDate: {type: Date, required: true},
+
+    returnDate: {type: Date, default: null},
+
+    status: {
+        type: String,
+        enum: ["Borrowing", "Returned", "Overdue"],
+        default: "Borrowing"
+    },
+
+}, {timestamps: true};
+```
